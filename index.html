@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Order and Cash</title>
+        <link rel="stylesheet" type="text/css" href="css/basic.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script>
+            window.onload = function () {
+                var leftCate = document.getElementsByClassName('left-cate')[0];
+                var navCate = document.getElementsByClassName('nav-cate')[0];
+                var bg = document.getElementsByClassName('bg')[0];
+                var flag = true;
+                bg.onclick = navCate.onclick = function () {
+                    if (flag) {
+                        flag = false;
+                        leftCate.style.transform = 'translate(0, 0)';
+                        bg.style.display = 'block';
+                    }else {
+                        flag = true;
+                        leftCate.style.transform = 'translate(-100%, 0)';
+                        bg.style.display = 'none';
+                    }
+
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <header class="index-header">
+            <ul>
+                <li>
+                    <img src="images/rexiao.png" alt="">
+                    <p>热销榜</p>
+                </li>
+                <li>
+                    <img src="images/caidan.png" alt="">
+                    <p>点过的菜</p>
+                </li>
+                <li>
+                    <img src="images/sousuo.png" alt="">
+                    <p>搜你喜欢</p>
+                </li>
+            </ul>
+        </header>
+        <aside class="left-cate">
+            <ul>
+                <li>精品美食</li>
+                <li>精品小面</li>
+                <li>饮料酒水</li>
+                <li>新品推荐</li>
+                <li>舌尖美食</li>
+                <li>厨师长推荐</li>
+            </ul>
+            <div class="nav-cate">
+                <img src="images/nav.png" alt="">
+                <p>菜单</p>
+            </div>
+        </aside>
+        <div class="content">
+            <div class="item">
+                <h3 class="item-cate">皮蛋瘦肉粥</h3>
+                <ul class="item-list">
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3 class="item-cate">皮蛋瘦肉粥</h3>
+                <ul class="item-list">
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3 class="item-cate">皮蛋瘦肉粥</h3>
+                <ul class="item-list">
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <img src="images/1.jpg" alt="">
+                            <p class="title">大蒜腊肉</p>
+                            <p class="price">￥26</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bg"></div>
+    </body>
+</html>

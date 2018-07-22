@@ -1,0 +1,90 @@
+.index-header {
+  width: 96%;
+  height: 4.4rem;
+  margin: 1rem auto 0;
+  background: #fff;
+  border-radius: .5rem; }
+  .index-header ul {
+    display: flex;
+    text-align: center; }
+    .index-header ul li {
+      flex: 1;
+      padding-top: .3rem;
+      border-right: 1px solid #eee; }
+      .index-header ul li:last-child {
+        border-right: none; }
+      .index-header ul li img {
+        width: 2rem;
+        height: 2rem;
+        margin: 0 auto; }
+
+aside.left-cate {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 6rem;
+  height: 100%;
+  background: #eee;
+  transition: all 1s;
+  transform: translate(-100%, 0); }
+  aside.left-cate ul {
+    z-index: 3;
+    position: absolute;
+    height: 100%;
+    padding: .5rem;
+    background: #eee; }
+    aside.left-cate ul li {
+      line-height: 4.4rem; }
+  aside.left-cate .nav-cate {
+    z-index: 2;
+    position: absolute;
+    top: 42%;
+    right: -3.5rem;
+    width: 5rem;
+    height: 4rem;
+    background: rgba(132, 128, 128, 0.9);
+    border-radius: 0 50% 50% 0;
+    text-align: center; }
+    aside.left-cate .nav-cate img {
+      width: 1.8rem;
+      height: 1.8rem;
+      margin: .4rem 0 0 1rem; }
+    aside.left-cate .nav-cate p {
+      margin: -.3rem 0 0 1rem;
+      color: #fff; }
+
+.content .item .item-cate {
+  padding: .5rem;
+  text-align: center; }
+.content .item .item-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 .5rem; }
+  .content .item .item-list li {
+    box-sizing: border-box;
+    width: 33.3%;
+    padding: .5rem; }
+    .content .item .item-list li .wrap {
+      width: 100%;
+      background: #fff;
+      border-radius: .5rem;
+      overflow: hidden; }
+      .content .item .item-list li .wrap img {
+        width: 100%; }
+      .content .item .item-list li .wrap p {
+        padding: .2rem .5rem; }
+      .content .item .item-list li .wrap p.title {
+        font-weight: bold; }
+
+.bg {
+  z-index: 1;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(132, 128, 128, 0.4); }
+
+/*# sourceMappingURL=index.css.map */
