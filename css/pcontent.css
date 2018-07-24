@@ -1,3 +1,27 @@
+.back {
+  position: fixed;
+  left: .5rem;
+  top: .5rem;
+  width: 3.8rem;
+  height: 3.8rem;
+  line-height: 3.8rem;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  text-align: center; }
+  .back:before {
+    position: relative;
+    left: .6rem;
+    top: 1.4rem;
+    float: left;
+    display: block;
+    content: '';
+    width: .8rem;
+    height: .8rem;
+    border-left: .2rem solid #fff;
+    border-bottom: .2rem solid #fff;
+    transform: rotate(45deg); }
+
 .p-content .p-info {
   background: #fff; }
   .p-content .p-info img {

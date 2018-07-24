@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.search-header {
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  input {
+    width: 90%;
+    height: 3.8rem;
+    line-height: 3.8rem;
+    border: 1px solid #eee;
+    border-radius: .5rem;
+  }
+}
+
+.item-list {
+  padding: 0 .5rem;
+  background: #fff;
+  li {
+    display: flex;
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+    img {
+      width: 6rem;
+      height: 6rem;
+    }
+    .item-info {
+      flex: 1;
+      padding-left: 1rem;
+    }
+  }
+}
