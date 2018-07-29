@@ -1,0 +1,76 @@
+.order-content {
+  padding: 1rem; }
+  .order-content .order-info {
+    background: #fff;
+    border-radius: .5rem; }
+    .order-content .order-info .order-receive {
+      display: flex; }
+      .order-content .order-info .order-receive img {
+        width: 5.6rem;
+        height: 5.6rem; }
+      .order-content .order-info .order-receive .receive-info {
+        flex: 1;
+        padding-top: .5rem; }
+    .order-content .order-info h3 {
+      line-height: 2;
+      padding: .5rem; }
+      .order-content .order-info h3 span {
+        font-size: 2rem;
+        color: #b30000; }
+  .order-content .order-list {
+    margin-top: 1rem;
+    padding: .5rem;
+    background: #fff;
+    border-radius: .5rem; }
+    .order-content .order-list h3 {
+      line-height: 2; }
+    .order-content .order-list .items li {
+      display: flex;
+      line-height: 2;
+      padding: .5rem 0; }
+      .order-content .order-list .items li .item {
+        flex: 2; }
+      .order-content .order-list .items li .amount {
+        flex: 1;
+        text-align: center; }
+      .order-content .order-list .items li .price {
+        flex: 1;
+        text-align: center; }
+  .order-content .pay-info {
+    background: #fff;
+    border-radius: .5rem; }
+    .order-content .pay-info h3 {
+      padding: 2rem 0 .5rem 0;
+      font-size: 2rem;
+      text-align: center; }
+    .order-content .pay-info .pay-detail {
+      display: flex;
+      padding: .5rem;
+      line-height: 2;
+      border-bottom: 1px solid #eee; }
+      .order-content .pay-info .pay-detail .t-num,
+      .order-content .pay-info .pay-detail .p-num,
+      .order-content .pay-info .pay-detail .order-time {
+        flex: 1; }
+    .order-content .pay-info .pay-price {
+      display: flex;
+      margin: 1rem 0;
+      padding: .5rem .5rem 1rem;
+      line-height: 2; }
+      .order-content .pay-info .pay-price p {
+        flex: 1; }
+        .order-content .pay-info .pay-price p span {
+          font-size: 2rem;
+          color: #b30000; }
+      .order-content .pay-info .pay-price .pay-btn {
+        position: relative;
+        top: .5rem;
+        width: 10rem;
+        height: 2.6rem;
+        line-height: 2.6rem;
+        background: #b30000;
+        text-align: center;
+        color: #fff;
+        border-radius: .5rem; }
+
+/*# sourceMappingURL=order.css.map */
